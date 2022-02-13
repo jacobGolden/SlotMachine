@@ -2,7 +2,6 @@ package SlotMachine;
 /***************************
  * SlotMachineGUIDriver.java
  * Author: Jacob Golden
- * CS257 LAB8C
  ***************************/
 
 import java.awt.*;

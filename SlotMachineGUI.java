@@ -2,7 +2,6 @@ package SlotMachine;
 /***************************
  * SlotMachineGUI.java
  * Author: Jacob Golden
- * CS257 LAB8C
  ***************************/
 
 import java.awt.*;
@@ -10,8 +9,6 @@ import java.awt.event.*;
 import javax.swing.*;
 import java.util.Random;
 
-// // //SORRY FOR MY GROSS INDENTATION THIS TIME AROUND. I KNOW ITS BAD, BUT IT HAPPENED WHEN I COMBINED
-// // //THE LAB 4 SLOT MACHINE CLASS WITH MY NEW CODE
 
 public class SlotMachineGUI extends JFrame implements ActionListener {
 	
@@ -139,7 +136,6 @@ public class SlotMachineGUI extends JFrame implements ActionListener {
     add(buttonPanel, BorderLayout.SOUTH);
 
     // set some window behavior
-    // (note these are not discussed in the lecture)
     pack(); // makes the frame fit the contents
     setDefaultCloseOperation(EXIT_ON_CLOSE); // closing window exits
     setVisible(true); // make sure we are displayed
